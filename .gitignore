@@ -1,0 +1,30 @@
+######################
+# Intellij
+######################
+.idea/
+.classpath
+.project
+
+######################
+# Mic Car
+######################
+/car/.mvn/
+/car/target/
+
+######################
+# Mic Flight
+######################
+/flight/.mvn/
+/flight/target/
+
+######################
+# Mic Hotel
+######################
+/hotel/.mvn/
+/hotel/target/
+
+######################
+# Mic User
+######################
+/user/.mvn/
+/user/target/

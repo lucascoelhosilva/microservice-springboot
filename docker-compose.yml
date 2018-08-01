@@ -1,0 +1,14 @@
+version: '2'
+services:
+  container_name: microservice-db
+  postgres:
+    networks:
+      default:
+    image: postgres:9.6
+    mem_limit: 256m
+    ports:
+    - "5432:5432"
+    environment:
+      POSTGRES_USER: microservice
+      POSTGRES_PASSWORD: microservice
+      POSTGRES_DB: microservice
